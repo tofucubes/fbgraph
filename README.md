@@ -269,7 +269,7 @@ After `authorizing` the app the user will be redirected to `/UserHasLoggedIn`
 
 var express   = require('express')
   , graph     = require('fbgraph')
-  , app       = module.exports = express.createServer();
+  , app       = express();
 
 // this should really be in a config file!
 var conf = {
